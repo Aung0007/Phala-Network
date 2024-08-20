@@ -1,0 +1,27 @@
+
+
+.dropdown{
+    display: none;
+}
+
+.drop:hover .svg {
+    transform: rotate(180deg);
+    transition: all 0.4s;
+}
+
+.hoText:hover{
+    color:#CDFA50 ;
+}
+
+
+.drop:hover > .dropdown{
+    display: grid;
+    transition: all 0.4s;
+
+}
+
+.hText:hover .arrow{
+    margin-left: 13px;
+    transition: all 0.4s;
+
+}

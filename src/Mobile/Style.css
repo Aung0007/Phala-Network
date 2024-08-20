@@ -1,0 +1,31 @@
+
+
+
+
+.anim{
+    height: 0px;
+    opacity: 0.25;
+    transform:scale(0.75) translateZ(0);
+}
+
+.toggle.active{
+    color: greenyellow;
+}
+
+.route.active{
+    transform: rotate(180deg);
+    color: greenyellow;
+    transition: ease .2s;
+}
+
+.one.active{
+    color: greenyellow;
+}
+
+.two.active{
+    color: greenyellow;
+}
+
+.three.active{
+    color: greenyellow;
+}
