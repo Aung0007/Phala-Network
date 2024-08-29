@@ -178,7 +178,7 @@ const Highlight = () => {
 
 
                         <div className=''>
-                            <iframe width="280" className=' lg:w-[480px] lg:h-[260px]' height="385" src="https://www.youtube.com/embed/uSY-0NxEnFY?si=_2SyuxIfug21W7cK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            <iframe width="340" className=' lg:w-[480px] lg:h-[260px]' height="385"  src="https://www.youtube.com/embed/uSY-0NxEnFY?si=_2SyuxIfug21W7cK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
 

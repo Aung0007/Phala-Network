@@ -5,13 +5,13 @@ import glob from '../assets/video/worldmap20230708.mp4'
 const Global = () => {
   return (
    <>
-   <section className='section-global-distribution'>
+   <section className='section-global-distribution '>
 
-<div className='safe-viewport !px-0 grid gap-8 xl:gap-16 grid-cols-1 xl:grid-cols-12 border border-solid border-black-100 rounded-md'>
+<div className='safe-viewport px-0 grid gap-8 xl:gap-16 grid-cols-1 xl:grid-cols-12 border border-solid border-black-100 rounded-md'>
 
-    <div className='row-start-1 col-span-full z-10 flex flex-col items-center gap-12 my-8 2xl:my-16'>
+    <div className='row-start-1 col-span-full   z-10 flex flex-col items-center gap-12 my-8 2xl:my-16'>
         <header className='text-center'>
-            <h3 className=' text-56 text-black-800 font-black'>
+            <h3 className=' lg:text-56 text-3xl text-black-800 font-black p-10'>
                 DePIN with the most TEE nodes
             </h3>
             <h4 className='text-32 text-black-600'>

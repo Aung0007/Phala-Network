@@ -10,7 +10,7 @@ const Work = () => {
     
 <section id='section-how-it-works'>
 
-<div className='safe-viewport py-10 border border-solid border-black-100 rounded bg-black-900 text-white xl:hidden'>
+<div className='safe-viewport py-10 border border-solid border-black-100 rounded bg-black-900 text-white xl:hidden  p-10'>
     <header className=' row-start-1 col-start-1 col-span-full'>
         <h2 className='text-3xl lg:text-6xl font-black'>
             How It works
