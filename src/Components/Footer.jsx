@@ -5,7 +5,7 @@ import Box from './Box'
 const Footer = () => {
   return (
     <>
-      <footer className='page-footer bg-[#1c1c1c] text-white py-12 xl:py-16'>
+      <footer className='page-footer bg-[#1c1c1c] text-white lg:py-12 p-6 xl:py-16'>
 
         <div className='safe-viewport grid gap-4 grid-cols-2 auto-rows-min xl:auto-rows-fr xl:grid-cols-20 3xl:grid-cols-24'>
 

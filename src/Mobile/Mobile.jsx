@@ -137,14 +137,14 @@ const Mobile = () => {
                         </ul>
                     </div>
                 </details>
-                <details class="" open="">
+                <details class="" open="" >
                     <summary class="flex flex-row gap-2 items-center text-xl font-bold"> <div className={ isOne ? 'one active' : 'one'} onClick={() => setIsOne(! isOne)}>
                     Network</div> <svg stroke="currentColor" className={isOne ?'route active' : 'route'} onClick={() =>setIsOne(!isOne)} fill="none"
                             stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
                             height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg></summary>
-                    <div class="overflow-hidden">
+                    <div class="overflow-hidden bg-[#333333] pb-2">
                         <ul class="flex flex-col gap-1.5 mt-2.5">
                             <li class="py-1.5 px-2.5"><a
                                     class="site-nav-menu-item btn-with-arrow flex flex-row gap-2.5 w-full items-start"
@@ -472,7 +472,7 @@ const Mobile = () => {
                 </details>
             </div>
         </div>
-        <div class="flex  flex-row gap-2 px-8 pb-8 mt-[200px]"><a title="Blog"
+        <div class="flex  flex-row gap-2 px-8 pb-8 mt-[470px] z-[-1] absolute"><a title="Blog"
                 class="shadow-lg rounded-2xl w-10 h-10 flex items-center justify-center bg-black-750 text-whiteAlpha-700 transition-all hover:shadow-md hover:bg-black-50 hover:text-black-800"
                 href="blog.html"><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1"
                     viewBox="0 0 16 16" class="w-8 h-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

@@ -7,7 +7,7 @@ const Subscription = () => {
    <>
    
 
-   <section id='section-subscription' className='section-subscription'>
+   <section id='section-subscription' className='section-subscription p-3 lg:p-0'>
 
 <div className='safe-viewport grid gap-4 grid-cols-1 xl:grid-cols-20 3xl:grid-cols-24'>
     <div className='row-start-1 col-span-full xl:col-start-2 xl:col-span-12 3xl:col-start-4 xl:px-10 bg-[#262626]'>

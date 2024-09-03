@@ -1,17 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Components/Style.css'
 import MobileNav from './MobileNav'
 import { IoMdListBox } from "react-icons/io";
 import menuAboutImg from '../assets/icons/menu-about-phala.png'
 const Nav = () => {
 
+  useEffect(() =>{
+    var lastScrolTop = 0;
+    var navbar = document.getElementById('navbar');
+    window.addEventListener("scroll", function(){
+      var scrollTop = this.window.pageYOffset || this.document.documentElement.scrollTop;
+      if(scrollTop > lastScrolTop){
+        navbar.style.top="-100px";
+        navbar.style.transition = "ease .6s all"
+      }else{
+        navbar.style.top="0";
+      }
+      lastScrolTop = scrollTop;
+    })
+  }, [])
   return (
     <>
 
 
 
       {/* nav - initially hidden - show on desktop mode */}
-      <nav class="site-nav w-screen fixed z-30 top-0 left-0 px-10">
+      <nav id='navbar' class="site-nav w-screen fixed z-30 top-0 left-0 px-10">
         <div class="safe-viewport py-6">
           <div class="bg-black-800 rounded-sm grid gap-4 grid-cols-2 xl:grid-cols-20 3xl:grid-cols-24 grid-rows-1"><a
             class="flex gap-2.5 items-center h-[4rem] p-2 col-span-1 col-start-1 xl:col-span-3 row-start-1"
